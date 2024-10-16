@@ -1,12 +1,433 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/font/SFPRODISPLAYMEDIUM.OTF">
+</head>
+<body>
+
+    <!-- navbar -->
+    
+    <section id="navbar" class="mt-5 mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 d-flex align-items-center">
+                    <div class="logo">
+                        <img src="assets/images/Logo.png" alt="">
+                    </div>
+                    <div class="logo_input">
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <div class="logo_menu">
+                        <img src="assets/images/menu.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-7 d-flex justify-content-end align-items-center" id="author_info">
+                    <div class="author_img">
+                        <img src="assets/images/social.png" alt="">
+                        <span>+1.2K Authors</span>
+                    </div>
+                    <div class="btn_group">
+                        <button class="btn-1">Sign In</button>
+                        <button class="btn-2">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /navbar -->
+    
+    <!-- hero -->
+
+    <section id="hero" class="mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col_1">
+                    <h1>Improve your English level</h1>
+                </div>
+                <div class="col-lg-4 mt-3 col-md-12" style="padding-left: 27px;"> 
+                    <p>We have published more than <span>650 episodes </span> of educational materials, every day more than <span>1.2k teachers work on our materials</span></p>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-4"></div>
+                    <div class="col-lg-8 col_2" style="background: #F75B35;border-bottom-left-radius: 0px;border-bottom-right-radius: 40px;">
+                    <h1>Train with Native speakers</h1>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-3 d-flex mb-5 col_3" style="margin-right: 15px;bottom: 10px;">
+                    <img src="assets/images/main_img.png" alt="">
+                    <div class="img_content">
+                        <h1>Blog</h1>
+                        <p>More than 500 articles on educational topics</p>   
+                        <div class="img_btn d-flex justify-content-between align-items-center">
+                            <a href="#">View All</a>
+                            <img src="assets/images/arrow_right.png" alt="">
+                        </div>                     
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 text-center col_4 mb-5">
+                    <h1>Get a license and teach</h1>
+                </div>
+                <div class="col-lg-1 .col-md-12 d-flex align-items-center mb-5 col_5">
+                    <a href="#">Let's Go</a>
+                    <img src="assets/images/arrow_right.png" alt="">
+                </div>
+            </div>
+            <div class="row" id="hero_desc" >
+                <div class="hero_desc d-flex justify-content-center align-items-center" style="width: 100%;"style="padding-top: 40px;">
+                    <div class="hero_desc_p" style="width: 750px;">
+                    <p>Experience top-notch English language education with passionate teachers, interactive lessons, and modern facilities at our school. Empower your English skills for personal and professional success.</p>
+                    <div class="btn_desc d-flex justify-content-center align-items-center text-center">
+                    <div class="btn ">
+                        <input type="text" placeholder="Your Email">
+                        <button>Get Started</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /hero -->
+
+    <!-- content -->
+    
+    <section id="content">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h1>Our Content</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 mb-3 sec_row">
+                <div class="col-lg-4 col-sm-4 col-4">
+                    <a href="#">Popular</a>
+                    <img src="assets/images/icon_bottom.png" alt="">
+                </div>
+                <div class="col-lg-4 podcast col-sm-4 col-4 text-center">
+                    <h1>Podcasts</h1>
+                    <img src="assets/images/Toggle.png" alt="">
+                </div>
+                <div class="col-lg-4 col-sm-4 col-4" style="text-align: end;">
+                    <img src="assets/images/arrow_right.png" alt="">
+                    <a href="#">Popular</a>
+                </div>
+            </div>
+        </div>
+        <div class="container content_body" style="padding:30px;">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1>Get Started your day with us</h1>
+                    <h2><span>01</span>Podcasts on any topic</h2>
+                </div>
+                <div class="col-lg-4">
+                   <p>The school's mission is to empower students with the language skills they need for personal and professional success.</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 col-space" style="border: 1px solid #F7F7F5;border-radius: 20px;background: #F7F7F5;height: 474px;padding: 0;">
+                    <img src="assets/images/Image.png" alt="" style="width: 100%;border-radius: 20px;height: 254px;padding: 10px;object-fit: cover;">
+                    <div class="content_para">
+                        <h1>Habit of Speaking</h1>
+                        <p>The habitual use of descriptive language while speaking is commonly referred to as "descriptive speech." This communication style involves using vivid and detailed </p>
+                        <div class="p-3 text-center">
+                            <a href="#" style="text-decoration: none;border: 1px solid #4208B3; color: #4208B3;padding: 10px 130px;border-radius: 20px;">Go to Podcast</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-space" style="border: 1px solid #F7F7F5;border-radius: 20px;background: #D2BBFF;">
+                  <div class="content_para2">
+                    <h1 style="padding-top: 10px;padding-left: 10px;">Start your day</h1>
+                    <h2 style="color: #4208B3;padding-left: 10px;">With us</h2>
+                    <div class="content_para2_img" style="display: flex; justify-content: center;align-items: center;padding-top: 10px;">
+                        <img src="assets/images/Author.png" alt="">
+                    </div>
+                    <div class="content_para2_img2" style="margin-top: 40px;">
+                        <img src="assets/images/Headphones.png" alt="" style="width: 100%;"> 
+                    <div class="d-flex justify-content-between align-items-center mt-1 pt-2">
+                        <h1 style="font-size: 24px;">Run and Talk</h1>
+                        <span style="font-size: 16px;">Audio Podcast</span>
+                    </div>
+                    <div>
+                        <p style="font-size: 16px;">Running and talking simultaneously can be challenging, but with practice, it's possible to do both effectively. Here are some tips to help you run and talk at the same</p>
+                    </div>
+                    <div class="p-3 text-center">
+                        <a href="#" style="text-decoration: none;border: 1px solid #4208B3; color: #4208B3;padding: 10px 130px;border-radius: 20px;">Go to Podcast</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+                <div class="col-md-4 last-col" style="height: 474px;">
+                <div class="col-md-12"  style="border: 1px solid #F7F7F5;border-radius: 20px;padding: 20px;background: #F7F7F5;">
+                  <div class="content_para3">
+                    <h1>The Lighthouse </h1>
+                    <h2>Conversation</h2>
+                    <p>The group approached the lighthouse, marveling at its beauty and history. As they climbed the winding staircase, they couldn't help but feel a sense of awe and reverence.</p>
+                   <div class="btn_group d-flex justify-content-between align-items-center">
+                    <a href="#">Read More</a>
+                    <img src="assets/images/arrow_right.png" alt="">
+                   </div>
+                  </div>
+                </div>
+                <div class="col-md-12 mt-2"  style="border: 1px solid #F7F7F5;border-radius: 20px;padding: 20px;background: #F7F7F5;">
+                    <div class="airbud_group d-flex justify-content-between" style="margin-bottom: 27px;">
+                        <img src="assets/images/airbud.png" alt="">
+                        <img src="assets/images/arrow_right.png" alt="">
+                    </div>
+                    <p style="font-size: 17px;">Our podcasts can inspire you not only to <span style="color: #4208B3;"> speak English </span> every day but <span style="color: #4208B3;"> also to think </span>in it.</p>
+                </div>
+                </div>
+              </div>
+        </div>
+    </section>
+     
+    <!-- /content -->
+
+    <!-- topics -->
+    
+    <section id="topic" class="mt-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h1>Our Favorite Topics</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row topic_row mb-5">
+                <div class="col-lg-8 col-md-6">
+                    <div class="topic_col d-flex align-items-center">
+                        <span>01/</span>
+                        <h1>Entrepreneurship</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex justify-content-end align-items-center">
+                    <p>126 Podcasts</p>
+                    <img src="assets/images/podcast_1.png" alt="">
+                </div>
+            </div>
+            <div class="row topic_row mb-5">
+                <div class="col-lg-8 col-md-6">
+                    <div class="topic_col d-flex align-items-center" style="margin-left: 40px;">
+                        <span>02/</span>
+                        <h1 style="color: #4208B3;">Wellness</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex justify-content-end align-items-center">
+                    <p>126 Podcasts</p>
+                    <img src="assets/images/podcast_1.png" alt="">
+                </div>
+            </div>
+            <div class="row topic_row mb-5">
+                <div class="col-lg-8 col-md-6">
+                    <div class="topic_col d-flex align-items-center">
+                        <span>03/</span>
+                        <h1>Food & Beverage</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex justify-content-end align-items-center">
+                    <p>126 Podcasts</p>
+                    <img src="assets/images/podcast_1.png" alt="">
+                </div>
+            </div>
+            <div class="row topic_row mb-5">
+                <div class="col-lg-8 col-md-6">
+                    <div class="topic_col d-flex align-items-center">
+                        <span>04/</span>
+                        <h1>Sustainability</h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 d-flex justify-content-end align-items-center">
+                    <p>126 Podcasts</p>
+                    <img src="assets/images/podcast_1.png" alt="">
+                </div>
+            </div>
+            <div class="topic_img">
+                <img src="assets/images/topic_img.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- /topics -->
+
+    <!-- Talk -->
+
+    <section id="talk">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12">
+                    <div class="title">
+                        <h1>They talk About Us</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-space" style="background-color: #fff;border-radius: 20px;">
+                    <div class="col-md-10" style="background: #F7F7F5;border-radius: 20px;float: right;">
+                        <p>As a recent graduate of this English language school, I can confidently say that it has exceeded my expectations. The teachers are not only knowledgeable and passionate about teaching but also go above and beyond to ensure that each student receives personalized attention.</p>
+                    </div>
+                    <div class="col-md-10 sec_col" style="background: #F7F7F5;border-radius: 20px;float: left;">
+                        <p>As a recent graduate of this English language school, I can confidently say that it has exceeded my expectations. The teachers are not only knowledgeable and passionate about teaching but also go above and beyond to ensure that each student receives personalized attention.</p>
+                    </div>
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        <div class="talk_btn">
+                            <a href="#">View all Reviws</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" style="background-color: #fff;padding: 20px 30px;border-radius: 30px;">
+                    <div class="col-md-12">
+                        <h1>200K+</h1>
+                        <h2>Reviews</h2>
+                        <p>The English language school has received overwhelmingly <span> positive reviews </span> from its students. Many have praised the school's experienced and knowledgeable teachers, who are able to cater to the <span>individual needs of each student.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- /Talk -->
+
+    <!-- Price -->
+
+    <section id="price" class="mt-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12 text-center">
+                    <div class="title">
+                        <h1>Prices</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- First Box -->
+                <div class="col-md-8 mb-4">
+                    <div class="price_box d-flex justify-content-between align-items-center">
+                        <div class="col-lg-6 col-md-12">
+                            <h1 style="font-size: 39px;">Get a <span>License</span> and become a teacher</h1>
+                        </div>
+                        <div class="col-lg-6 text-end">
+                            <img src="assets/images/arrow_right.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-3">
+                        <p style="font-size: 18px;text-align: left;">The cost of obtaining an English teacher license can vary depending on the program and location. Some programs may require fees for application, examinations, and materials, while others may offer more affordable options.</p>
+                    </div>
+                </div>
+    
+                <!-- First Row of Images -->
+                <div class="col-md-2 d-flex flex-column align-items-center">
+                    <img src="assets/images/img1.png" alt="" class="img-fluid mb-3">
+                    <img src="assets/images/img2.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 d-flex flex-column align-items-center">
+                    <img src="assets/images/img3.png" alt="" class="img-fluid mb-3">
+                    <img src="assets/images/img4.png" alt="" class="img-fluid">
+                </div>
+            </div>
+    
+            <div class="row mt-4">
+                <!-- Second Row of Images -->
+                <div class="col-md-2 d-flex flex-column align-items-center">
+                    <img src="assets/images/img5.png" alt="" class="img-fluid mb-3">
+                    <img src="assets/images/img6.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-2 d-flex flex-column align-items-center">
+                    <img src="assets/images/img7.png" alt="" class="img-fluid mb-3">
+                    <img src="assets/images/img8.png" alt="" class="img-fluid">
+                </div>
+    
+                <!-- Second Box -->
+                <div class="col-md-8">
+                    <div class="price_box d-flex justify-content-between align-items-center">
+                        <div class="col-lg-6">
+                            <h1 style="font-size: 33px;">Learn English and Pass <span>international exams</span></h1>
+                        </div>
+                        <div class="col-lg-6 text-end">
+                            <img src="assets/images/arrow_right.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-3">
+                        <p style="font-size: 18px;text-align: left;">The cost of English language courses can vary based on factors such as the course length, level, and location. Some courses may offer flexible payment plans or discounts for group enrollments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- /Price -->
+
+    <!-- Footer -->
+
+    <footer id="footer" style="margin-top: 80px;margin-bottom: 60px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center align-items-center">
+                    <div class="footer_title">
+                        <h1>Open the door to a <span> new world </span>by learning English</h1>
+                        <div class="footer_btn">
+                            <button>Get Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-12">
+                    <div class="footer_menu d-flex justify-content-center align-items-center text-center">
+                      <div class="menu_1" style="margin-bottom: 80px;">
+                        <li style="font-weight: 600;">Support</li>
+                        <li>Help Center</li>
+                        <li>Chat</li>
+                        <li>Report a Bug</li>
+                      </div>
+                      <div class="menu_1">
+                        <li style="font-weight: 600;">Product</li>
+                        <li>Features</li>
+                        <li>Work</li>
+                        <li>Career</li>
+                        <li>Money</li>
+                        <li>Benefits</li>
+                      </div>
+                      <div class="menu_1" style="margin-bottom: 80px;">
+                        <li style="font-weight: 600;">Get in Touch</li>
+                        <li>Contact</li>
+                        <li>Sales</li>
+                        <li>Prices</li>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 80px;" id="line">
+                <div class="col-lg-4 col-md-6">
+                    <p><span>©</span>Copywritting | All Rights Reserved</p>
+                </div>
+                <div class="col-lg-4 col-md-4 text-center">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="col-lg-4 col-md-4" style="text-align: end;">
+                    <p>Terms of Use <span>|</span> Privacy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- /Footer -->
+
+</body>
 </html>
