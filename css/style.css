@@ -74,6 +74,9 @@ text-align: center;
     #navbar .container .row #author_info .btn-1,.btn-2,.author_img{
         display: none;
     }
+    .logo_input{
+        display: none;
+    }
 }
 #hero .container .row .col-lg-8 {
   height: 125px;
@@ -89,7 +92,7 @@ text-align: center;
   text-align: center;
 }
 #hero .container .row .col-lg-4 p{
-font-size: 16px;
+font-size: 18px;
 font-weight: 400;
 line-height: 28px;
 text-align: left;
@@ -125,6 +128,7 @@ color: white;
     padding: 15px;
     border-radius: 20px;
     color: #4208B3;
+    margin-top: -50px;
 }
 #hero .container .row .col-lg-3 img{
     height: 147px;
@@ -140,7 +144,7 @@ line-height: 21.48px;
 text-align: left;
 }
 #hero .container .row .col-lg-3 .img_content p{
-font-size: 14px;
+font-size: 16px;
 font-weight: 400;
 line-height: 20px;
 letter-spacing: 0.01em;
@@ -177,7 +181,7 @@ text-align: center;
 color: black;
 }
 #hero_desc .hero_desc_p p{
-font-size: 18px;
+font-size: 20px;
 font-weight: 400;
 line-height: 28px;
 text-align: center;
@@ -227,19 +231,31 @@ padding-bottom: 30px;
         right: 20px;
         font-size: 16px;
     }
+    #hero .container .row .col-lg-3{
+        margin-top: 0;
+    }
+#hero .container .row .col-lg-8 h1 {
+    font-size: 30px;
+}
+#hero_desc .hero_desc_p p{
+    font-size: 14px;
+}
 }
 @media screen and (max-width:1200px){
     #hero.container .row .col-lg-8{
         height: auto;
     }
     #hero .container .row .col_1 h1{
-        font-size: 35px;
+        font-size: 20px;
+    }
+    #hero .container .row .col-lg-4 p{
+        font-size: 14px;
     }
     #hero .container .row .col_2 h1,.col_4 h1{
-        font-size: 35px;
+        font-size: 20px;
     }
     #hero .container .row .col_4 h1{
-        font-size: 35px;
+        font-size: 20px;
     }
     #hero .container .row .col_3 img{
         width: 50%;
@@ -260,6 +276,7 @@ padding-bottom: 30px;
         padding-right: 25px;
         text-decoration: none;
     }
+    
 }
 #content .container .row .col-lg-12,
 #topic .container .row .col-lg-12{
@@ -351,7 +368,7 @@ text-align: left;
     padding-right: 5px;
 }
 .content_body .col-lg-4 p{
-font-size: 16px;
+font-size: 18px;
 font-weight: 400;
 line-height: 24px;
 text-align: left;
@@ -403,6 +420,31 @@ padding-top: 25px;
     .col-space{
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    #content .title h1, #topic .title h1{
+        font-size: 30px;
+    }
+    .sec_row .col-lg-4 h1{
+        display: none;
+    }
+    .content_body .col-lg-8 h1,.content_body .col-lg-8 h2{
+        font-size: 30px;
+    }
+    .content_body .col-lg-4 p{
+        font-size: 14px;
+    }
+    .content_body h1{
+        font-size: 25px;
+    }
+    .content_para p{
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .content_para a{
+        display: none;
+    }
+    .content_para2 a{
+        display: none;
     }
 }
 #topic .container .row .col-lg-12{
@@ -479,11 +521,17 @@ padding-right: 10px;
     #topic .container .row .col-lg-12 .title{
         width: 100%;
     }
+    .topic_row span{
+        display: none;
+    }
+    #talk .container .row .col-lg-12 .title h1{
+        font-size: 30px;
+    }
     #topic .container .row .col-lg-12 .title h1{
-        font-size: 48px;
+        font-size: 25px;
     }
     .topic_row h1{
-        font-size: 48px;
+        font-size: 28px;
     }
     .topic_img img{
         display: none;
@@ -576,7 +624,7 @@ margin-bottom: 20px;
         width: 100%;
     }
     #talk .container .row .col-lg-12 .title h1{
-        font-size: 48px;
+        font-size: 30px;
     }
     #talk .row_1{
         flex-direction: column;
@@ -591,6 +639,23 @@ margin-bottom: 20px;
     }
     #talk .row_1 .box-1 .box-2-content{
         flex-basis: 100%;
+    }
+    #talk .container .row .col-lg-6 .col-md-12 h1{
+        font-size: 30px;
+    }
+    #talk .container .row .col-lg-6 .col-md-12 h2{
+        font-size: 25px;
+    }
+    #talk .container .row .col-lg-6 .col-md-12 p{
+        font-size: 20px;
+    }
+    #talk .container .row .col-lg-6{
+        height: 100%;
+        margin: 0 auto;
+    }
+    .col-space{
+        margin: 0;
+        margin-right: 10px;
     }
 }
 /* talk */
@@ -665,6 +730,18 @@ padding-bottom: 40px;
 .talk_btn{
     display: none;
 }
+#talk .container .row .col-md-10 p{
+    font-size: 16px;
+}
+.price_box .col-lg-6 img{
+    display: none;
+}
+.price_box .col-lg-12 p{
+    font-size: 10px;
+}
+.first_row_price{
+    padding: 0;
+}
 }
 /* prices */
 #price .container .row .col-lg-12{
@@ -733,7 +810,7 @@ line-height:110px;
     padding: 10px 50px;
     font-size: 16px;
 }
-.menu_1 li{
+.menu_1 li,.menu_2 li,.menu_3 li{
 font-weight: 500;
 line-height: 28px;
 text-align: left;
