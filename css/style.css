@@ -46,7 +46,7 @@ line-height: 20px;
 letter-spacing: 0.01em;
 text-align: center;
 color: #4208B3;
-margin: 0px 10px;
+margin: 0px 5px;
 border-radius: 30px;
 }
 .btn_group .btn-2{
@@ -66,6 +66,7 @@ border-radius: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-right: 10px;
     border-radius: 30px;
 }
 .author_img span{
@@ -203,7 +204,7 @@ padding-bottom: 30px;
 .btn input{
     width: 567px;
     height: 55px;
-    border-radius: 20px;
+    border-radius: 100px;
     outline: none;
     border: 1px solid #E9E9E9;
 }
@@ -219,7 +220,7 @@ padding-bottom: 30px;
     width: 157px;
     height: 44px;
     background: #4208B3;
-    border-radius: 20px;
+    border-radius: 100px;
     color: white;
     outline: none;
     border: 1px solid #4208B3;
@@ -291,8 +292,17 @@ padding-bottom: 30px;
     text-align: center;
     margin: 0 auto;
 }
-#content .title,
 #topic .title{
+    width: 731px;
+    height: 125px;
+    background: #D2BBFF;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 40px;
+    margin-top: 60px;
+    border-bottom-right-radius: 40px;
+}
+#content .title{
     width: 534px;
     height: 125px;
     background: #D2BBFF;
@@ -301,11 +311,15 @@ padding-bottom: 30px;
     border-top-right-radius: 40px;
     margin-top: 60px;
 }
-#content .title h1,
+#content .title h1{
+    font-size: 64px;
+    font-weight: 700;
+    padding-top: 25px;
+}
 #topic .title h1{
 font-size: 64px;
 font-weight: 700;
-line-height:120px;
+padding-top: 7px;
 }
 .sec_row{
     height: 76px;
@@ -564,7 +578,7 @@ padding-right: 10px;
 #talk .title h1{
 font-size: 64px;
 font-weight: 700;
-line-height:110px;
+padding-top: 25px;
 }
 #talk .row_1{
     display: flex;
@@ -761,14 +775,14 @@ padding-bottom: 40px;
     height: 125px;
     background: #D2BBFF;
     border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
     border-top-right-radius: 40px;
     margin-top: 160px;
 }
 #price .title h1{
 font-size: 64px;
 font-weight: 700;
-line-height:110px;
+padding-top: 25px;
 }
 #price .row .col-md-8{
     height: 268px;
